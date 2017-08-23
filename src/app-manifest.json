@@ -1,7 +1,7 @@
 {
-
   "name": "Movie Finder",
   "short_name": "Movie Finder",
+  "start_url": "index.html",
   "theme_color": "#df691a",
   "background_color": "#2b3e50",
   "display": "standalone",
