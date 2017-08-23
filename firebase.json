@@ -1,5 +1,16 @@
 {
   "hosting": {
-    "public": "dist"
+    "public": "dist",
+    "headers": [
+      {
+        "source": "/",
+        "headers": [
+          {
+            "key": "Link",
+            "value": "<styles.6d601836f8c88cc81e16.bundle.css>;rel=preload;as=style,<vendor.8d7b8b5b26cc9e120d94.bundle.js>;rel=preload;as=script,<main.c1a2e8f5346f67c93597.bundle.js>;rel=preload;as=script"
+          }
+        ]
+      }
+    ]
   }
 }
