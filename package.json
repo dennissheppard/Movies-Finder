@@ -49,6 +49,7 @@
     "sw-toolbox": "^3.6.0",
     "ts-node": "~3.2.0",
     "tslint": "~5.3.2",
-    "typescript": "~2.3.3"
+    "typescript": "~2.3.3",
+    "webpack-bundle-analyzer": "^2.9.0"
   }
 }
