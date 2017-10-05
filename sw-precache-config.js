@@ -29,6 +29,20 @@ module.exports = {
           name: 'movie-cache'
         }
       }
-    }
+    },
+      {
+        urlPattern: '/*',
+          handler: 'cacheFirst',
+          options: {
+            origin: 'bootstrapcdn.com'
+          }
+      },
+      {
+        urlPattern: '/*',
+          handler: 'cacheFirst',
+          options: {
+            origin: 'jquery.com'
+          }
+      }
   ]
 };
